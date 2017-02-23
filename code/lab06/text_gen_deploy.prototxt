@@ -48,7 +48,6 @@ layer {
   bottom: "cont_sequence"
   top: "lstm1"
   recurrent_param {
-    #debug_info: true
     num_output: 256
 
     weight_filler {

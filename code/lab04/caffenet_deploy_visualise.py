@@ -1,3 +1,8 @@
+import matplotlib
+# Force matplotlib to not use any Xwindows backend.
+matplotlib.use('Agg')
+
+
 import sys
 import os
 import numpy as np

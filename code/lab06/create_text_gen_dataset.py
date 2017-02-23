@@ -90,3 +90,9 @@ with open(hdf_list_file, "w") as f:
 
 
 print("Dataset created")
+
+#For completeness, here is how we would open and read a hdf5 file
+# with h5py.File(hdf_output_file, "r") as f:
+#     print(f["input_sequence"].shape)
+#     print(f["cont_sequence"].shape)
+#     print(f["target_sequence"].shape)

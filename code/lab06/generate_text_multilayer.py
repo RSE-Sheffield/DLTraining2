@@ -5,8 +5,8 @@ import json
 import random
 
 
-model_path = "code/lab06/text_gen_deploy.prototxt"
-weights_path = "text_gen_iter_6000.caffemodel"
+model_path = "code/lab06/text_gen_multilayer_deploy.prototxt"
+weights_path = "text_gen_multilayer_iter_6000.caffemodel"
 
 #Net loading parameters changed in Python 3
 net = caffe.Net(model_path, 1, weights=weights_path)
